@@ -10,21 +10,21 @@ public class secondShape implements Shape
    //15 sides
    
    private int height;
-   private int base;
+   private int sideLength;
    private String color;
    
    public secondShape(int base, int height, String color) {
-       this.height = height;
-       this.base = base;
+       this.sideLength = sideLength;
        this.color = color;
    }
    
    public double getArea() {
-       
+       //area is A = (15/4) * (s)^2 (pi/15)
+       return 15/4 * (sideLength
    }
    
    public double getPerimeter() {
-       return base * 15;
+       return sideLength * 15;
    }
    
    public String getColor() {
