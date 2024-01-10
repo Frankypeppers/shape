@@ -20,7 +20,7 @@ public class secondShape implements Shape
    
    public double getArea() {
        //area is A = (15/4) * (s)^2 (pi/15)
-       return 15/4 * (sideLength
+       return (15 * sideLength * (sideLength/(2*Math.tan(180/15)))) /2;
    }
    
    public double getPerimeter() {
